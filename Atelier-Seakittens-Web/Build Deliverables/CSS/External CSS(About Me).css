@@ -24,12 +24,12 @@ body {
 
 a {
     text-decoration: none;
-    color: goldenrod;
+    color: #4b0076;
 }
 
 .award-referral {
     text-decoration: underline;
-    color: goldenrod;
+    color: #4b0076;
 
 }
 
@@ -211,7 +211,7 @@ ul.no-bullets {
 
     a {
         text-decoration: none;
-        color: goldenrod;
+        color: #4b0076 ;
     }
 
     .header {
@@ -375,7 +375,7 @@ ul.no-bullets {
 
     a {
         text-decoration: none;
-        color: goldenrod;
+        color: #4b0076;
     }
 
     .header {
