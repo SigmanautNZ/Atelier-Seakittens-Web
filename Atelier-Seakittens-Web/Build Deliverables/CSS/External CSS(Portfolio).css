@@ -1,0 +1,340 @@
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/Gingham.png);
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.grid-item {
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+.grid-image{
+    border-radius: 20px;
+    max-width: 400px;
+    max-height: 900px;
+}
+
+
+.grid-image:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+.logo {
+    margin-bottom: -100px;
+    width: 350px;
+    height: 350px;
+    background-color: none;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.Textbox {
+    background-color: white;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    opacity: 80%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Main-Nav {
+    background-color: #e9e1d1;
+    border-radius: 20px;
+    opacity: 100%;
+    width: 200px;
+    height: 100px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin: 35px;
+
+}
+
+.Main-Nav:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: gold ;
+    color: black;
+}
+
+/* Tablet Device with 768px */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../Images/Gingham.png);
+        justify-content: center;
+        margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Main-Nav {
+        display: block;
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 150px;
+        height: 40px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        color: black;
+        padding: 3px;
+        margin-top: 30px;
+        margin-left: 50px;
+        float: right;
+    }
+
+    .Main-Nav:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .TextHeader1 {
+        font-size: 24px;
+    }
+
+    .Textbox {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        opacity: 80%;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        margin: auto;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+    .grid-item {
+        margin-left: 90px;
+        margin-top: 20px;
+    
+    }
+    
+    .grid-image{
+        border-radius: 20px;
+        max-width: 200px;
+        max-height: 300px;
+    }
+    
+    
+    .grid-image:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+    
+
+}
+
+/* Mobile Device with 425px */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+@media (max-width: 425px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../Images/Gingham.png);
+        justify-content: center;
+        margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        background-color: none;
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Main-Nav {
+        display: block;
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 150px;
+        height: 40px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        color: black;
+        padding: 3px;
+        margin-top: 20px;
+        float: right;
+    }
+
+    .Main-Nav:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .TextHeader1{
+        font-size: 20px;
+    }
+
+    .Textbox {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        opacity: 80%;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        margin: auto;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+    .grid-item {
+        margin-left: 20px;
+        margin-top: 20px;
+    
+    }
+    
+    .grid-image{
+        border-radius: 20px;
+        max-width: 150px;
+        max-height: 300px;
+    }
+    
+    
+    .grid-image:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+    
+}

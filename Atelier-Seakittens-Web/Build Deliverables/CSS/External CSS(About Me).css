@@ -1,0 +1,486 @@
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/Gingham.png);
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.award-referral {
+    text-decoration: underline;
+    color: goldenrod;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    max-height: 100%;
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.logo {
+    margin-bottom: -100px;
+    width: 350px;
+    height: 350px;
+    background-color: none;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.Textbox {
+    background-color: white;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    opacity: 80%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Textbox-a {
+    background-color: white;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    opacity: 80%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.Textbox-b {
+    background-color: white;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    opacity: 80%;
+    width: 90%;
+    text-align: left;
+    margin-top: 50px;
+    margin: auto;
+}
+
+
+
+.Main-Nav {
+    background-color: #e9e1d1;
+    border-radius: 20px;
+    opacity: 100%;
+    width: 200px;
+    height: 100px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin: 35px;
+
+}
+
+.Main-Nav:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: gold ;
+    color: black;
+}
+
+.Contact-me-footer {
+    background-color: #e9e1d1;
+    border-radius: 20px;
+    opacity: 100%;
+    width: 200px;
+    height: 100px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin: 35px;
+
+}
+
+.Contact-me-footer:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.Professional {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.Professional:hover {
+    transform: scale(1.025);
+    transition: 0.2s;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0px;
+    /* Remove padding */
+    margin-bottom: 10px;
+}
+
+
+/* Tablet Device with 768px */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../Images/Gingham.png);
+        justify-content: center;
+        margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Main-Nav {
+        display: block;
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 150px;
+        height: 40px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        color: black;
+        padding: 3px;
+        margin-top: 30px;
+        margin-left: 50px;
+        float: right;
+    }
+
+    .Main-Nav:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Contact-me-footer {
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 200px;
+        height: 50px;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+        margin: 35px;
+
+    }
+
+    .Contact-me-footer:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Textbox-a {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 16px;
+        opacity: 80%;
+        width: 50%;
+        text-align: left;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .text-a{
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .Textbox-b {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 16px;
+        opacity: 80%;
+        width: 90%;
+        text-align: left;
+        margin-top: 50px;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+
+    }
+
+    .image {
+        flex-basis: 40%
+    }
+
+    .Textbox {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        opacity: 80%;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .TextHeader1 {
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* Mobile Device with 425px */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+/* ************************************************************** */
+
+@media (max-width: 425px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../Images/Gingham.png);
+        justify-content: center;
+        margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        background-color: none;
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Main-Nav {
+        display: block;
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 150px;
+        height: 40px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        color: black;
+        padding: 3px;
+        margin-top: 20px;
+        float: right;
+    }
+
+    .Main-Nav:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .Contact-me-footer {
+        background-color: #e9e1d1;
+        border-radius: 20px;
+        opacity: 100%;
+        width: 150px;
+        height: 50px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        color: black;
+        padding: 10px;
+        margin: 35px;
+    }
+
+    .Contact-me-footer:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+        border-radius: 20px;
+
+    }
+
+    .image {
+        flex-basis: 40%
+    }
+
+    .Textbox {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        opacity: 80%;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .TextHeader1 {
+        font-size: 20px;
+    }
+
+    .Textbox-a {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 16px;
+        opacity: 80%;
+        width: 50%;
+        text-align: left;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .Textbox-b {
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, serif;
+        font-size: 16px;
+        opacity: 80%;
+        width: 90%;
+        text-align: left;
+        margin-top: 50px;
+        margin: auto;
+    }
+}
