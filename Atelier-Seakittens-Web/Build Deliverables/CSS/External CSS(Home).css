@@ -24,7 +24,9 @@ body {
 
 a {
     text-decoration: none;
+    color: indigo;
 }
+
 
 .award-referral {
     text-decoration: underline;
@@ -170,6 +172,7 @@ ul.no-bullets {
 
     a {
         text-decoration: none;
+        color: indigo;
     }
 
     .award-referral {
@@ -323,6 +326,7 @@ ul.no-bullets {
 
     a {
         text-decoration: none;
+        color: indigo;
     }
 
     .award-referral {

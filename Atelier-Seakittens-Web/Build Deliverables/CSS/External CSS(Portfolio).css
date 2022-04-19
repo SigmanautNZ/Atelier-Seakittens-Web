@@ -23,6 +23,7 @@ body {
 
 a {
     text-decoration: none;
+    color: indigo;
 }
 
 .header {
@@ -134,6 +135,7 @@ a {
 
     a {
         text-decoration: none;
+        color: indigo;
     }
 
     .header {
@@ -254,6 +256,8 @@ a {
 
     a {
         text-decoration: none;
+        color: indigo;
+
     }
 
     .header {
